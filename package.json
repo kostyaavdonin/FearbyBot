@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@puregram/hear": "^2.1.0-rc.1",
+    "@puregram/scenes": "^2.0.1",
+    "@puregram/session": "^3.2.4",
+    "@starkow/i18n": "^2.6.1",
+    "@starkow/logger": "^2.3.1",
+    "async-ratelimiter": "^1.3.13",
+    "axios": "^1.7.7",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^5.1.0",
+    "ioredis": "^5.4.1",
+    "path": "^0.12.7",
+    "pg": "^8.13.1",
+    "puregram": "^2.26.5",
+    "sequelize": "^6.37.5"
+  }
+}

